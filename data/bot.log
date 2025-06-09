@@ -1,0 +1,888 @@
+2025-06-09 13:31:18 [INFO] __main__: [bot.py] Инициализация базы данных...
+2025-06-09 13:31:18 [INFO] utils.models.base: [init_db] Все таблицы созданы (если не существовали)
+2025-06-09 13:31:18 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 13:31:20 [INFO] utils.db_sync: [fetch_states_from_google] Лист получен: states
+2025-06-09 13:31:20 [INFO] utils.db_sync: [fetch_states_from_google] Загружено 14 состояний из Google Sheets
+2025-06-09 13:31:20 [INFO] utils.db_sync: [upsert_states] Таблица 'states' перезаписана
+2025-06-09 13:31:21 [INFO] utils.db_sync: [fetch_buttons_from_google] Лист получен: ru_buttons
+2025-06-09 13:31:21 [INFO] utils.db_sync: [fetch_buttons_from_google] Загружено 19 кнопок из Google Sheets
+2025-06-09 13:31:21 [INFO] utils.db_sync: [upsert_buttons] Таблица 'ru_buttons' перезаписана
+2025-06-09 13:31:21 [INFO] utils.db_sync: [fetch_users_from_google] Лист получен: users
+2025-06-09 13:31:21 [INFO] utils.db_sync: [fetch_users_from_google] Загружено 2 пользователей из Google Sheets
+2025-06-09 13:31:21 [INFO] utils.db_sync: [upsert_states] Таблица 'users' перезаписана
+2025-06-09 13:31:21 [INFO] utils.db_sync: [update_from_google_to_db] Синхронизация завершена
+2025-06-09 13:31:21 [INFO] __main__: [bot.py] ✅ База данных инициализирована
+2025-06-09 13:31:21 [INFO] __main__: [main] Запуск бота...
+2025-06-09 13:31:22 [INFO] __main__: Бот запущен. Ждём обновлений...
+2025-06-09 13:31:22 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getMe "HTTP/1.1 200 OK"
+2025-06-09 13:31:22 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-09 13:31:22 [INFO] apscheduler.scheduler: Scheduler started
+2025-06-09 13:31:22 [INFO] telegram.ext.Application: Application started
+2025-06-09 13:31:34 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:31:44 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:31:54 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:32:04 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:32:14 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:32:22 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:32:22 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-06-09 13:32:22 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-06-09 13:32:22 [INFO] telegram.ext.Application: Application.stop() complete
+2025-06-09 13:32:22 [INFO] __main__: [shutdown_hook] 🛑 Начинаю процедуру завершения работы бота…
+2025-06-09 13:32:22 [INFO] __main__: [shutdown_hook] ✅ SQLAlchemy engine.dispose() выполнен
+2025-06-09 13:32:22 [INFO] __main__: 🗑 Удалён старый бэкап: data\bot_database_backup_2025-06-09_01-08-34.db
+2025-06-09 13:32:22 [INFO] __main__: ✅ Создан бэкап БД: data\bot_database_backup_2025-06-09_13-32-22.db
+2025-06-09 13:32:22 [INFO] __main__: [shutdown_hook] ✅ Все логгеры закрыты
+2025-06-09 13:37:55 [INFO] __main__: [bot.py] Инициализация базы данных...
+2025-06-09 13:37:55 [INFO] utils.models.base: [init_db] Все таблицы созданы (если не существовали)
+2025-06-09 13:37:55 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 13:37:56 [INFO] utils.db_sync: [fetch_states_from_google] Лист получен: states
+2025-06-09 13:37:56 [INFO] utils.db_sync: [fetch_states_from_google] Загружено 14 состояний из Google Sheets
+2025-06-09 13:37:56 [INFO] utils.db_sync: [upsert_states] Таблица 'states' перезаписана
+2025-06-09 13:37:57 [INFO] utils.db_sync: [fetch_buttons_from_google] Лист получен: ru_buttons
+2025-06-09 13:37:57 [INFO] utils.db_sync: [fetch_buttons_from_google] Загружено 19 кнопок из Google Sheets
+2025-06-09 13:37:57 [INFO] utils.db_sync: [upsert_buttons] Таблица 'ru_buttons' перезаписана
+2025-06-09 13:37:57 [INFO] utils.db_sync: [fetch_users_from_google] Лист получен: users
+2025-06-09 13:37:58 [INFO] utils.db_sync: [fetch_users_from_google] Загружено 2 пользователей из Google Sheets
+2025-06-09 13:37:58 [INFO] utils.db_sync: [upsert_states] Таблица 'users' перезаписана
+2025-06-09 13:37:58 [INFO] utils.db_sync: [update_from_google_to_db] Синхронизация завершена
+2025-06-09 13:37:58 [INFO] __main__: [bot.py] ✅ База данных инициализирована
+2025-06-09 13:37:58 [INFO] __main__: [main] Запуск бота...
+2025-06-09 13:37:58 [INFO] __main__: Бот запущен. Ждём обновлений...
+2025-06-09 13:37:58 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getMe "HTTP/1.1 200 OK"
+2025-06-09 13:37:59 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-09 13:37:59 [INFO] apscheduler.scheduler: Scheduler started
+2025-06-09 13:37:59 [INFO] telegram.ext.Application: Application started
+2025-06-09 13:38:04 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:38:04 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu_manage_bot' → 'main_menu'
+2025-06-09 13:38:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/sendMessage "HTTP/1.1 200 OK"
+2025-06-09 13:38:05 [INFO] utils.models.user: [User.set_last_message_id] Обновлён message_id для пользователя Артем С.(242466895): 2695 → 15
+2025-06-09 13:38:06 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:38:06 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu' → 'daily_report_date_entering'
+2025-06-09 13:38:06 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 13:38:07 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:38:07 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report_date_entering' → 'main_menu'
+2025-06-09 13:38:07 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 13:38:07 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 13:38:17 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:38:27 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:38:37 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:38:47 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:38:57 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:39:02 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 13:39:02 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-06-09 13:39:02 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-06-09 13:39:02 [INFO] telegram.ext.Application: Application.stop() complete
+2025-06-09 13:39:02 [INFO] __main__: [shutdown_hook] 🛑 Начинаю процедуру завершения работы бота…
+2025-06-09 13:39:02 [INFO] __main__: [shutdown_hook] ✅ SQLAlchemy engine.dispose() выполнен
+2025-06-09 13:39:02 [INFO] __main__: 🗑 Удалён старый бэкап: data\bot_database_backup_2025-06-09_02-11-48.db
+2025-06-09 13:39:02 [INFO] __main__: ✅ Создан бэкап БД: data\bot_database_backup_2025-06-09_13-39-02.db
+2025-06-09 13:39:02 [INFO] __main__: [shutdown_hook] ✅ Все логгеры закрыты
+2025-06-09 14:25:43 [INFO] __main__: [bot.py] Инициализация базы данных...
+2025-06-09 14:25:43 [INFO] utils.models.base: [init_db] Все таблицы созданы (если не существовали)
+2025-06-09 14:25:43 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 14:25:45 [INFO] utils.db_sync: [fetch_states_from_google] Лист получен: states
+2025-06-09 14:25:45 [INFO] utils.db_sync: [fetch_states_from_google] Загружено 14 состояний из Google Sheets
+2025-06-09 14:25:45 [INFO] utils.db_sync: [upsert_states] Таблица 'states' перезаписана
+2025-06-09 14:25:45 [INFO] utils.db_sync: [fetch_buttons_from_google] Лист получен: ru_buttons
+2025-06-09 14:25:46 [INFO] utils.db_sync: [fetch_buttons_from_google] Загружено 19 кнопок из Google Sheets
+2025-06-09 14:25:46 [INFO] utils.db_sync: [upsert_buttons] Таблица 'ru_buttons' перезаписана
+2025-06-09 14:25:47 [INFO] utils.db_sync: [fetch_users_from_google] Лист получен: users
+2025-06-09 14:25:47 [INFO] utils.db_sync: [fetch_users_from_google] Загружено 2 пользователей из Google Sheets
+2025-06-09 14:25:47 [INFO] utils.db_sync: [upsert_states] Таблица 'users' перезаписана
+2025-06-09 14:25:47 [INFO] utils.db_sync: [update_from_google_to_db] Синхронизация завершена
+2025-06-09 14:25:47 [INFO] __main__: [bot.py] ✅ База данных инициализирована
+2025-06-09 14:25:47 [INFO] __main__: [main] Запуск бота...
+2025-06-09 14:25:48 [INFO] __main__: Бот запущен. Ждём обновлений...
+2025-06-09 14:25:48 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getMe "HTTP/1.1 200 OK"
+2025-06-09 14:25:48 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-09 14:25:48 [INFO] apscheduler.scheduler: Scheduler started
+2025-06-09 14:25:48 [INFO] telegram.ext.Application: Application started
+2025-06-09 14:25:59 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:26:09 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:26:19 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:26:29 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:26:39 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:26:49 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:26:59 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:27:09 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:27:19 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:27:29 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:27:39 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:27:49 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:27:59 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:28:10 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:28:20 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:28:30 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:28:40 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:28:50 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:29:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:29:10 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:29:20 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:29:30 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:29:40 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:29:50 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:30:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:30:10 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:30:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:30:31 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:30:41 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:30:51 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:31:01 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:31:11 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:31:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:31:31 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:31:41 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:31:51 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:32:01 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:32:11 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:32:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:32:32 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:32:40 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:32:40 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-06-09 14:32:40 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-06-09 14:32:40 [INFO] telegram.ext.Application: Application.stop() complete
+2025-06-09 14:32:40 [INFO] __main__: [shutdown_hook] 🛑 Начинаю процедуру завершения работы бота…
+2025-06-09 14:32:40 [INFO] __main__: [shutdown_hook] ✅ SQLAlchemy engine.dispose() выполнен
+2025-06-09 14:32:40 [INFO] __main__: 🗑 Удалён старый бэкап: data\bot_database_backup_2025-06-09_13-31-14.db
+2025-06-09 14:32:40 [INFO] __main__: ✅ Создан бэкап БД: data\bot_database_backup_2025-06-09_14-32-40.db
+2025-06-09 14:32:40 [INFO] __main__: [shutdown_hook] ✅ Все логгеры закрыты
+2025-06-09 14:50:54 [INFO] __main__: [bot.py] Инициализация базы данных...
+2025-06-09 14:50:54 [INFO] utils.models.base: [init_db] Все таблицы созданы (если не существовали)
+2025-06-09 14:50:54 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 14:50:56 [INFO] utils.db_sync: [fetch_states_from_google] Лист получен: states
+2025-06-09 14:50:57 [INFO] utils.db_sync: [fetch_states_from_google] Загружено 14 состояний из Google Sheets
+2025-06-09 14:50:57 [INFO] utils.db_sync: [upsert_states] Таблица 'states' перезаписана
+2025-06-09 14:50:58 [INFO] utils.db_sync: [fetch_buttons_from_google] Лист получен: ru_buttons
+2025-06-09 14:50:58 [INFO] utils.db_sync: [fetch_buttons_from_google] Загружено 19 кнопок из Google Sheets
+2025-06-09 14:50:58 [INFO] utils.db_sync: [upsert_buttons] Таблица 'ru_buttons' перезаписана
+2025-06-09 14:50:59 [INFO] utils.db_sync: [fetch_users_from_google] Лист получен: users
+2025-06-09 14:50:59 [INFO] utils.db_sync: [fetch_users_from_google] Загружено 2 пользователей из Google Sheets
+2025-06-09 14:50:59 [INFO] utils.db_sync: [upsert_states] Таблица 'users' перезаписана
+2025-06-09 14:50:59 [INFO] utils.db_sync: [update_from_google_to_db] Синхронизация завершена
+2025-06-09 14:50:59 [INFO] __main__: [bot.py] ✅ База данных инициализирована
+2025-06-09 14:50:59 [INFO] __main__: [main] Запуск бота...
+2025-06-09 14:51:00 [INFO] __main__: Бот запущен. Ждём обновлений...
+2025-06-09 14:51:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getMe "HTTP/1.1 200 OK"
+2025-06-09 14:51:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-09 14:51:00 [INFO] apscheduler.scheduler: Scheduler started
+2025-06-09 14:51:00 [INFO] telegram.ext.Application: Application started
+2025-06-09 14:51:10 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:51:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:51:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 14:51:15 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu_manage_bot' → 'main_menu'
+2025-06-09 14:51:15 [WARNING] utils.models.messages: [build_keyboard] Не найдена кнопка с ключом 'main_menu_daily_report' в БД
+2025-06-09 14:51:15 [WARNING] utils.models.messages: [build_keyboard] Не найдена кнопка с ключом 'main_menu_knowledge_base' в БД
+2025-06-09 14:51:15 [WARNING] utils.models.messages: [build_keyboard] Не найдена кнопка с ключом 'main_menu_manage_bot' в БД
+2025-06-09 14:51:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/sendMessage "HTTP/1.1 200 OK"
+2025-06-09 14:51:15 [INFO] utils.models.user: [User.set_last_message_id] Обновлён message_id для пользователя Артем С.(242466895): 2695 → 17
+2025-06-09 14:51:25 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:51:35 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:51:45 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:51:55 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:52:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:52:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:52:25 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:52:35 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:52:45 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:52:55 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:53:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:53:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:53:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:53:21 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-06-09 14:53:21 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-06-09 14:53:21 [INFO] telegram.ext.Application: Application.stop() complete
+2025-06-09 14:53:21 [INFO] __main__: [shutdown_hook] 🛑 Начинаю процедуру завершения работы бота…
+2025-06-09 14:53:21 [INFO] __main__: [shutdown_hook] ✅ SQLAlchemy engine.dispose() выполнен
+2025-06-09 14:53:21 [INFO] __main__: 🗑 Удалён старый бэкап: data\bot_database_backup_2025-06-09_13-32-22.db
+2025-06-09 14:53:21 [INFO] __main__: ✅ Создан бэкап БД: data\bot_database_backup_2025-06-09_14-53-21.db
+2025-06-09 14:53:21 [INFO] __main__: [shutdown_hook] ✅ Все логгеры закрыты
+2025-06-09 14:53:23 [INFO] __main__: [bot.py] Инициализация базы данных...
+2025-06-09 14:53:23 [INFO] utils.models.base: [init_db] Все таблицы созданы (если не существовали)
+2025-06-09 14:53:23 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 14:53:25 [INFO] utils.db_sync: [fetch_states_from_google] Лист получен: states
+2025-06-09 14:53:26 [INFO] utils.db_sync: [fetch_states_from_google] Загружено 14 состояний из Google Sheets
+2025-06-09 14:53:26 [INFO] utils.db_sync: [upsert_states] Таблица 'states' перезаписана
+2025-06-09 14:53:27 [INFO] utils.db_sync: [fetch_buttons_from_google] Лист получен: ru_buttons
+2025-06-09 14:53:28 [INFO] utils.db_sync: [fetch_buttons_from_google] Загружено 19 кнопок из Google Sheets
+2025-06-09 14:53:28 [INFO] utils.db_sync: [upsert_buttons] Таблица 'ru_buttons' перезаписана
+2025-06-09 14:53:28 [INFO] utils.db_sync: [fetch_users_from_google] Лист получен: users
+2025-06-09 14:53:29 [INFO] utils.db_sync: [fetch_users_from_google] Загружено 2 пользователей из Google Sheets
+2025-06-09 14:53:29 [INFO] utils.db_sync: [upsert_states] Таблица 'users' перезаписана
+2025-06-09 14:53:29 [INFO] utils.db_sync: [update_from_google_to_db] Синхронизация завершена
+2025-06-09 14:53:29 [INFO] __main__: [bot.py] ✅ База данных инициализирована
+2025-06-09 14:53:29 [INFO] __main__: [main] Запуск бота...
+2025-06-09 14:53:30 [INFO] __main__: Бот запущен. Ждём обновлений...
+2025-06-09 14:53:30 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getMe "HTTP/1.1 200 OK"
+2025-06-09 14:53:30 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-09 14:53:30 [INFO] apscheduler.scheduler: Scheduler started
+2025-06-09 14:53:30 [INFO] telegram.ext.Application: Application started
+2025-06-09 14:53:34 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:53:34 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 14:53:34 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu_manage_bot' → 'main_menu'
+2025-06-09 14:53:35 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/sendMessage "HTTP/1.1 200 OK"
+2025-06-09 14:53:35 [INFO] utils.models.user: [User.set_last_message_id] Обновлён message_id для пользователя Артем С.(242466895): 2695 → 19
+2025-06-09 14:53:36 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:53:46 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:53:55 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:53:55 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 14:53:55 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu' → 'daily_report.date_entering'
+2025-06-09 14:53:55 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 14:53:56 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:54:06 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:54:17 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:54:27 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:54:37 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:54:47 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:54:53 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:55:03 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:55:13 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:55:18 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:55:18 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-06-09 14:55:18 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-06-09 14:55:18 [INFO] telegram.ext.Application: Application.stop() complete
+2025-06-09 14:55:18 [INFO] __main__: [shutdown_hook] 🛑 Начинаю процедуру завершения работы бота…
+2025-06-09 14:55:18 [INFO] __main__: [shutdown_hook] ✅ SQLAlchemy engine.dispose() выполнен
+2025-06-09 14:55:18 [INFO] __main__: 🗑 Удалён старый бэкап: data\bot_database_backup_2025-06-09_13-39-02.db
+2025-06-09 14:55:18 [INFO] __main__: ✅ Создан бэкап БД: data\bot_database_backup_2025-06-09_14-55-18.db
+2025-06-09 14:55:18 [INFO] __main__: [shutdown_hook] ✅ Все логгеры закрыты
+2025-06-09 14:55:20 [INFO] __main__: [bot.py] Инициализация базы данных...
+2025-06-09 14:55:20 [INFO] utils.models.base: [init_db] Все таблицы созданы (если не существовали)
+2025-06-09 14:55:20 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 14:55:22 [INFO] utils.db_sync: [fetch_states_from_google] Лист получен: states
+2025-06-09 14:55:23 [INFO] utils.db_sync: [fetch_states_from_google] Загружено 14 состояний из Google Sheets
+2025-06-09 14:55:23 [INFO] utils.db_sync: [upsert_states] Таблица 'states' перезаписана
+2025-06-09 14:55:23 [INFO] utils.db_sync: [fetch_buttons_from_google] Лист получен: ru_buttons
+2025-06-09 14:55:24 [INFO] utils.db_sync: [fetch_buttons_from_google] Загружено 19 кнопок из Google Sheets
+2025-06-09 14:55:24 [INFO] utils.db_sync: [upsert_buttons] Таблица 'ru_buttons' перезаписана
+2025-06-09 14:55:25 [INFO] utils.db_sync: [fetch_users_from_google] Лист получен: users
+2025-06-09 14:55:26 [INFO] utils.db_sync: [fetch_users_from_google] Загружено 2 пользователей из Google Sheets
+2025-06-09 14:55:26 [INFO] utils.db_sync: [upsert_states] Таблица 'users' перезаписана
+2025-06-09 14:55:26 [INFO] utils.db_sync: [update_from_google_to_db] Синхронизация завершена
+2025-06-09 14:55:26 [INFO] __main__: [bot.py] ✅ База данных инициализирована
+2025-06-09 14:55:26 [INFO] __main__: [main] Запуск бота...
+2025-06-09 14:55:26 [INFO] __main__: Бот запущен. Ждём обновлений...
+2025-06-09 14:55:26 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getMe "HTTP/1.1 200 OK"
+2025-06-09 14:55:27 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-09 14:55:27 [INFO] apscheduler.scheduler: Scheduler started
+2025-06-09 14:55:27 [INFO] telegram.ext.Application: Application started
+2025-06-09 14:55:32 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:55:33 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 14:55:33 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu_manage_bot' → 'main_menu'
+2025-06-09 14:55:33 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/sendMessage "HTTP/1.1 200 OK"
+2025-06-09 14:55:33 [INFO] utils.models.user: [User.set_last_message_id] Обновлён message_id для пользователя Артем С.(242466895): 2695 → 22
+2025-06-09 14:55:34 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:55:40 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:55:40 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-06-09 14:55:40 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-06-09 14:55:40 [INFO] telegram.ext.Application: Application.stop() complete
+2025-06-09 14:55:40 [INFO] __main__: [shutdown_hook] 🛑 Начинаю процедуру завершения работы бота…
+2025-06-09 14:55:40 [INFO] __main__: [shutdown_hook] ✅ SQLAlchemy engine.dispose() выполнен
+2025-06-09 14:55:40 [INFO] __main__: 🗑 Удалён старый бэкап: data\bot_database_backup_2025-06-09_14-32-40.db
+2025-06-09 14:55:40 [INFO] __main__: ✅ Создан бэкап БД: data\bot_database_backup_2025-06-09_14-55-40.db
+2025-06-09 14:55:40 [INFO] __main__: [shutdown_hook] ✅ Все логгеры закрыты
+2025-06-09 14:55:49 [INFO] __main__: [bot.py] Инициализация базы данных...
+2025-06-09 14:55:49 [INFO] utils.models.base: [init_db] Все таблицы созданы (если не существовали)
+2025-06-09 14:55:49 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 14:55:52 [INFO] utils.db_sync: [fetch_states_from_google] Лист получен: states
+2025-06-09 14:55:52 [INFO] utils.db_sync: [fetch_states_from_google] Загружено 14 состояний из Google Sheets
+2025-06-09 14:55:52 [INFO] utils.db_sync: [upsert_states] Таблица 'states' перезаписана
+2025-06-09 14:55:52 [INFO] utils.db_sync: [fetch_buttons_from_google] Лист получен: ru_buttons
+2025-06-09 14:55:53 [INFO] utils.db_sync: [fetch_buttons_from_google] Загружено 19 кнопок из Google Sheets
+2025-06-09 14:55:53 [INFO] utils.db_sync: [upsert_buttons] Таблица 'ru_buttons' перезаписана
+2025-06-09 14:55:54 [INFO] utils.db_sync: [fetch_users_from_google] Лист получен: users
+2025-06-09 14:55:55 [INFO] utils.db_sync: [fetch_users_from_google] Загружено 2 пользователей из Google Sheets
+2025-06-09 14:55:55 [INFO] utils.db_sync: [upsert_states] Таблица 'users' перезаписана
+2025-06-09 14:55:55 [INFO] utils.db_sync: [update_from_google_to_db] Синхронизация завершена
+2025-06-09 14:55:55 [INFO] __main__: [bot.py] ✅ База данных инициализирована
+2025-06-09 14:55:55 [INFO] __main__: [main] Запуск бота...
+2025-06-09 14:55:55 [INFO] __main__: Бот запущен. Ждём обновлений...
+2025-06-09 14:55:56 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getMe "HTTP/1.1 200 OK"
+2025-06-09 14:55:56 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-09 14:55:56 [INFO] apscheduler.scheduler: Scheduler started
+2025-06-09 14:55:56 [INFO] telegram.ext.Application: Application started
+2025-06-09 14:56:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:56:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 14:56:00 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu_manage_bot' → 'main_menu'
+2025-06-09 14:56:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/sendMessage "HTTP/1.1 200 OK"
+2025-06-09 14:56:00 [INFO] utils.models.user: [User.set_last_message_id] Обновлён message_id для пользователя Артем С.(242466895): 2695 → 24
+2025-06-09 14:56:02 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:56:13 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:56:23 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:56:33 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:56:43 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:56:53 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:57:03 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:57:13 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:57:23 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:57:27 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:57:27 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-06-09 14:57:27 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-06-09 14:57:27 [INFO] telegram.ext.Application: Application.stop() complete
+2025-06-09 14:57:27 [INFO] __main__: [shutdown_hook] 🛑 Начинаю процедуру завершения работы бота…
+2025-06-09 14:57:27 [INFO] __main__: [shutdown_hook] ✅ SQLAlchemy engine.dispose() выполнен
+2025-06-09 14:57:27 [INFO] __main__: ✅ Создан бэкап БД: data\bot_database_backup_2025-06-09_14-57-27.db
+2025-06-09 14:57:27 [INFO] __main__: [shutdown_hook] ✅ Все логгеры закрыты
+2025-06-09 14:57:29 [INFO] __main__: [bot.py] Инициализация базы данных...
+2025-06-09 14:57:29 [INFO] utils.models.base: [init_db] Все таблицы созданы (если не существовали)
+2025-06-09 14:57:29 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 14:57:32 [INFO] utils.db_sync: [fetch_states_from_google] Лист получен: states
+2025-06-09 14:57:32 [INFO] utils.db_sync: [fetch_states_from_google] Загружено 14 состояний из Google Sheets
+2025-06-09 14:57:33 [INFO] utils.db_sync: [upsert_states] Таблица 'states' перезаписана
+2025-06-09 14:57:33 [INFO] utils.db_sync: [fetch_buttons_from_google] Лист получен: ru_buttons
+2025-06-09 14:57:34 [INFO] utils.db_sync: [fetch_buttons_from_google] Загружено 19 кнопок из Google Sheets
+2025-06-09 14:57:34 [INFO] utils.db_sync: [upsert_buttons] Таблица 'ru_buttons' перезаписана
+2025-06-09 14:57:34 [INFO] utils.db_sync: [fetch_users_from_google] Лист получен: users
+2025-06-09 14:57:35 [INFO] utils.db_sync: [fetch_users_from_google] Загружено 2 пользователей из Google Sheets
+2025-06-09 14:57:35 [INFO] utils.db_sync: [upsert_states] Таблица 'users' перезаписана
+2025-06-09 14:57:35 [INFO] utils.db_sync: [update_from_google_to_db] Синхронизация завершена
+2025-06-09 14:57:35 [INFO] __main__: [bot.py] ✅ База данных инициализирована
+2025-06-09 14:57:35 [INFO] __main__: [main] Запуск бота...
+2025-06-09 14:57:35 [INFO] __main__: Бот запущен. Ждём обновлений...
+2025-06-09 14:57:36 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getMe "HTTP/1.1 200 OK"
+2025-06-09 14:57:36 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-09 14:57:36 [INFO] apscheduler.scheduler: Scheduler started
+2025-06-09 14:57:36 [INFO] telegram.ext.Application: Application started
+2025-06-09 14:57:36 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:57:36 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 14:57:36 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu_manage_bot' → 'main_menu'
+2025-06-09 14:57:36 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/sendMessage "HTTP/1.1 200 OK"
+2025-06-09 14:57:36 [INFO] utils.models.user: [User.set_last_message_id] Обновлён message_id для пользователя Артем С.(242466895): 2695 → 26
+2025-06-09 14:57:40 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:57:50 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:58:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:58:10 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:58:20 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:58:30 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:58:39 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:58:39 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-06-09 14:58:39 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-06-09 14:58:39 [INFO] telegram.ext.Application: Application.stop() complete
+2025-06-09 14:58:39 [INFO] __main__: [shutdown_hook] 🛑 Начинаю процедуру завершения работы бота…
+2025-06-09 14:58:39 [INFO] __main__: [shutdown_hook] ✅ SQLAlchemy engine.dispose() выполнен
+2025-06-09 14:58:39 [INFO] __main__: ✅ Создан бэкап БД: data\bot_database_backup_2025-06-09_14-58-39.db
+2025-06-09 14:58:39 [INFO] __main__: [shutdown_hook] ✅ Все логгеры закрыты
+2025-06-09 14:58:41 [INFO] __main__: [bot.py] Инициализация базы данных...
+2025-06-09 14:58:41 [INFO] utils.models.base: [init_db] Все таблицы созданы (если не существовали)
+2025-06-09 14:58:41 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 14:58:43 [INFO] utils.db_sync: [fetch_states_from_google] Лист получен: states
+2025-06-09 14:58:44 [INFO] utils.db_sync: [fetch_states_from_google] Загружено 14 состояний из Google Sheets
+2025-06-09 14:58:44 [INFO] utils.db_sync: [upsert_states] Таблица 'states' перезаписана
+2025-06-09 14:58:44 [INFO] utils.db_sync: [fetch_buttons_from_google] Лист получен: ru_buttons
+2025-06-09 14:58:44 [INFO] utils.db_sync: [fetch_buttons_from_google] Загружено 19 кнопок из Google Sheets
+2025-06-09 14:58:44 [INFO] utils.db_sync: [upsert_buttons] Таблица 'ru_buttons' перезаписана
+2025-06-09 14:58:45 [INFO] utils.db_sync: [fetch_users_from_google] Лист получен: users
+2025-06-09 14:58:45 [INFO] utils.db_sync: [fetch_users_from_google] Загружено 2 пользователей из Google Sheets
+2025-06-09 14:58:45 [INFO] utils.db_sync: [upsert_states] Таблица 'users' перезаписана
+2025-06-09 14:58:45 [INFO] utils.db_sync: [update_from_google_to_db] Синхронизация завершена
+2025-06-09 14:58:45 [INFO] __main__: [bot.py] ✅ База данных инициализирована
+2025-06-09 14:58:45 [INFO] __main__: [main] Запуск бота...
+2025-06-09 14:58:46 [INFO] __main__: Бот запущен. Ждём обновлений...
+2025-06-09 14:58:46 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getMe "HTTP/1.1 200 OK"
+2025-06-09 14:58:46 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-09 14:58:46 [INFO] apscheduler.scheduler: Scheduler started
+2025-06-09 14:58:46 [INFO] telegram.ext.Application: Application started
+2025-06-09 14:58:49 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:58:49 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 14:58:49 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu_manage_bot' → 'main_menu'
+2025-06-09 14:58:49 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/sendMessage "HTTP/1.1 200 OK"
+2025-06-09 14:58:49 [INFO] utils.models.user: [User.set_last_message_id] Обновлён message_id для пользователя Артем С.(242466895): 2695 → 28
+2025-06-09 14:58:51 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:59:01 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:59:11 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:59:16 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:59:16 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-06-09 14:59:16 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-06-09 14:59:16 [INFO] telegram.ext.Application: Application.stop() complete
+2025-06-09 14:59:16 [INFO] __main__: [shutdown_hook] 🛑 Начинаю процедуру завершения работы бота…
+2025-06-09 14:59:16 [INFO] __main__: [shutdown_hook] ✅ SQLAlchemy engine.dispose() выполнен
+2025-06-09 14:59:16 [INFO] __main__: ✅ Создан бэкап БД: data\bot_database_backup_2025-06-09_14-59-16.db
+2025-06-09 14:59:16 [INFO] __main__: [shutdown_hook] ✅ Все логгеры закрыты
+2025-06-09 14:59:27 [INFO] __main__: [bot.py] Инициализация базы данных...
+2025-06-09 14:59:27 [INFO] utils.models.base: [init_db] Все таблицы созданы (если не существовали)
+2025-06-09 14:59:27 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 14:59:29 [INFO] utils.db_sync: [fetch_states_from_google] Лист получен: states
+2025-06-09 14:59:29 [INFO] utils.db_sync: [fetch_states_from_google] Загружено 14 состояний из Google Sheets
+2025-06-09 14:59:29 [INFO] utils.db_sync: [upsert_states] Таблица 'states' перезаписана
+2025-06-09 14:59:30 [INFO] utils.db_sync: [fetch_buttons_from_google] Лист получен: ru_buttons
+2025-06-09 14:59:30 [INFO] utils.db_sync: [fetch_buttons_from_google] Загружено 19 кнопок из Google Sheets
+2025-06-09 14:59:30 [INFO] utils.db_sync: [upsert_buttons] Таблица 'ru_buttons' перезаписана
+2025-06-09 14:59:31 [INFO] utils.db_sync: [fetch_users_from_google] Лист получен: users
+2025-06-09 14:59:32 [INFO] utils.db_sync: [fetch_users_from_google] Загружено 2 пользователей из Google Sheets
+2025-06-09 14:59:32 [INFO] utils.db_sync: [upsert_states] Таблица 'users' перезаписана
+2025-06-09 14:59:32 [INFO] utils.db_sync: [update_from_google_to_db] Синхронизация завершена
+2025-06-09 14:59:32 [INFO] __main__: [bot.py] ✅ База данных инициализирована
+2025-06-09 14:59:32 [INFO] __main__: [main] Запуск бота...
+2025-06-09 14:59:33 [INFO] __main__: Бот запущен. Ждём обновлений...
+2025-06-09 14:59:33 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getMe "HTTP/1.1 200 OK"
+2025-06-09 14:59:33 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-09 14:59:33 [INFO] apscheduler.scheduler: Scheduler started
+2025-06-09 14:59:33 [INFO] telegram.ext.Application: Application started
+2025-06-09 14:59:39 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:59:39 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 14:59:39 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu_manage_bot' → 'main_menu'
+2025-06-09 14:59:40 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/sendMessage "HTTP/1.1 200 OK"
+2025-06-09 14:59:40 [INFO] utils.models.user: [User.set_last_message_id] Обновлён message_id для пользователя Артем С.(242466895): 2695 → 30
+2025-06-09 14:59:42 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:59:42 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu' → 'daily_report.date_entering'
+2025-06-09 14:59:42 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 14:59:45 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 14:59:45 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.date_entering' → 'main_menu'
+2025-06-09 14:59:45 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 14:59:45 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 14:59:55 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:00:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:00:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:00:25 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:00:35 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:00:45 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:00:55 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:01:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:01:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:01:26 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:01:36 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:01:46 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:01:56 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:02:06 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:02:16 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:02:26 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:02:36 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:02:46 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:02:56 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:03:06 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:03:16 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:03:27 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:03:37 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:03:47 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:03:57 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:04:07 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:04:17 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:04:27 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:04:37 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:04:47 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:04:57 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:05:07 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:05:17 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:05:28 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:05:38 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:05:48 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:05:58 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:06:08 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:06:18 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:06:28 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:06:38 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:06:48 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:06:58 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:07:08 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:07:19 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:07:29 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:07:39 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:07:49 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:07:59 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:08:09 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:08:19 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:08:29 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:08:40 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:08:50 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:09:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:09:10 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:09:20 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:09:30 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:09:41 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:09:51 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:10:01 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:10:11 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:10:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:10:31 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:10:41 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:10:51 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:11:01 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:11:11 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:11:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:11:32 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:11:42 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:11:52 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:12:01 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:12:01 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 15:12:01 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu' → 'main_menu'
+2025-06-09 15:12:02 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/sendMessage "HTTP/1.1 200 OK"
+2025-06-09 15:12:02 [INFO] utils.models.user: [User.set_last_message_id] Обновлён message_id для пользователя Артем С.(242466895): 30 → 32
+2025-06-09 15:12:03 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:12:03 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu' → 'daily_report.date_entering'
+2025-06-09 15:12:03 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:12:04 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:12:04 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.date_entering' → 'main_menu'
+2025-06-09 15:12:04 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:12:04 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:12:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:12:05 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu' → 'main_menu.knowledge_base'
+2025-06-09 15:12:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:12:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:12:08 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:12:08 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu.knowledge_base' → 'daily_report.date_entering'
+2025-06-09 15:12:08 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:12:09 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:12:09 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.date_entering' → 'main_menu'
+2025-06-09 15:12:09 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:12:09 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:12:11 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:12:11 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu' → 'main_menu.manage_bot'
+2025-06-09 15:12:11 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:12:11 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:12:12 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:12:12 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu.manage_bot' → 'main_menu'
+2025-06-09 15:12:12 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:12:12 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:12:13 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:12:13 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu' → 'daily_report.date_entering'
+2025-06-09 15:12:14 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:12:23 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:12:34 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:12:44 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:12:54 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:13:04 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:13:08 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:13:08 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:13:08 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'date': '09.06.2025', 'author': 'Артем С.(242466895)'}
+2025-06-09 15:13:08 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:13:08 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 15:13:11 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.date_entering' → 'daily_report.wolt'
+2025-06-09 15:13:11 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:13:14 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:13:14 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.wolt' → 'main_menu'
+2025-06-09 15:13:14 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:13:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:13:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:13:15 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu' → 'daily_report.date_entering'
+2025-06-09 15:13:16 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:13:16 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:13:16 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:13:16 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'date': '09.06.2025', 'author': 'Артем С.(242466895)'}
+2025-06-09 15:13:17 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:13:17 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 15:13:19 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.date_entering' → 'daily_report.wolt'
+2025-06-09 15:13:19 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:13:20 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:13:20 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.wolt' → 'main_menu'
+2025-06-09 15:13:20 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:13:20 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:13:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:13:21 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu' → 'daily_report.date_entering'
+2025-06-09 15:13:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:13:22 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:13:22 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:13:22 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'date': '08.06.2025', 'author': 'Артем С.(242466895)'}
+2025-06-09 15:13:22 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:13:22 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 15:13:24 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.date_entering' → 'daily_report.confirm_overwrite'
+2025-06-09 15:13:24 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:13:26 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:13:26 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.confirm_overwrite' → 'main_menu'
+2025-06-09 15:13:26 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:13:26 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:13:36 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:13:46 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:13:54 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:13:54 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-06-09 15:13:54 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-06-09 15:13:54 [INFO] telegram.ext.Application: Application.stop() complete
+2025-06-09 15:13:54 [INFO] __main__: [shutdown_hook] 🛑 Начинаю процедуру завершения работы бота…
+2025-06-09 15:13:54 [INFO] __main__: [shutdown_hook] ✅ SQLAlchemy engine.dispose() выполнен
+2025-06-09 15:13:54 [INFO] __main__: 🗑 Удалён старый бэкап: data\bot_database_backup_2025-06-09_14-57-27.db
+2025-06-09 15:13:54 [INFO] __main__: ✅ Создан бэкап БД: data\bot_database_backup_2025-06-09_15-13-54.db
+2025-06-09 15:13:54 [INFO] __main__: [shutdown_hook] ✅ Все логгеры закрыты
+2025-06-09 15:15:43 [INFO] __main__: [bot.py] Инициализация базы данных...
+2025-06-09 15:15:43 [INFO] utils.models.base: [init_db] Все таблицы созданы (если не существовали)
+2025-06-09 15:15:43 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 15:15:44 [INFO] utils.db_sync: [fetch_states_from_google] Лист получен: states
+2025-06-09 15:15:45 [INFO] utils.db_sync: [fetch_states_from_google] Загружено 14 состояний из Google Sheets
+2025-06-09 15:15:45 [INFO] utils.db_sync: [upsert_states] Таблица 'states' перезаписана
+2025-06-09 15:15:45 [INFO] utils.db_sync: [fetch_buttons_from_google] Лист получен: ru_buttons
+2025-06-09 15:15:45 [INFO] utils.db_sync: [fetch_buttons_from_google] Загружено 19 кнопок из Google Sheets
+2025-06-09 15:15:45 [INFO] utils.db_sync: [upsert_buttons] Таблица 'ru_buttons' перезаписана
+2025-06-09 15:15:46 [INFO] utils.db_sync: [fetch_users_from_google] Лист получен: users
+2025-06-09 15:15:46 [INFO] utils.db_sync: [fetch_users_from_google] Загружено 2 пользователей из Google Sheets
+2025-06-09 15:15:46 [INFO] utils.db_sync: [upsert_states] Таблица 'users' перезаписана
+2025-06-09 15:15:46 [INFO] utils.db_sync: [update_from_google_to_db] Синхронизация завершена
+2025-06-09 15:15:46 [INFO] __main__: [bot.py] ✅ База данных инициализирована
+2025-06-09 15:15:46 [INFO] __main__: [main] Запуск бота...
+2025-06-09 15:15:47 [INFO] __main__: Бот запущен. Ждём обновлений...
+2025-06-09 15:15:47 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getMe "HTTP/1.1 200 OK"
+2025-06-09 15:15:47 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-09 15:15:47 [INFO] apscheduler.scheduler: Scheduler started
+2025-06-09 15:15:47 [INFO] telegram.ext.Application: Application started
+2025-06-09 15:15:48 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:15:48 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu_manage_bot' → 'daily_report.date_entering'
+2025-06-09 15:15:48 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 400 Bad Request"
+2025-06-09 15:15:48 [WARNING] utils.models.messages: [BotMessage.edit] Ошибка BadRequest при редактировании сообщения (message_id=2695) для пользователя Артем С.(242466895) - Message to edit not found
+2025-06-09 15:15:49 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/sendMessage "HTTP/1.1 200 OK"
+2025-06-09 15:15:49 [INFO] utils.models.user: [User.set_last_message_id] Обновлён message_id для пользователя Артем С.(242466895): 2695 → 33
+2025-06-09 15:15:58 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:16:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:16:01 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 15:16:01 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.date_entering' → 'main_menu'
+2025-06-09 15:16:01 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/sendMessage "HTTP/1.1 200 OK"
+2025-06-09 15:16:01 [INFO] utils.models.user: [User.set_last_message_id] Обновлён message_id для пользователя Артем С.(242466895): 33 → 35
+2025-06-09 15:16:02 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:16:02 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu' → 'daily_report.date_entering'
+2025-06-09 15:16:02 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:16:02 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:16:03 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:16:03 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'date': '09.06.2025', 'author': 'Артем С.(242466895)'}
+2025-06-09 15:16:03 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:16:03 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 15:16:05 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.date_entering' → 'daily_report.wolt'
+2025-06-09 15:16:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:16:07 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:16:07 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 15:16:07 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'wolt': 213.0}
+2025-06-09 15:16:07 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.wolt' → 'daily_report.bolt'
+2025-06-09 15:16:07 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:16:08 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:16:08 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 15:16:08 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'bolt': 321.0}
+2025-06-09 15:16:08 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.bolt' → 'daily_report.yandex'
+2025-06-09 15:16:09 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:16:09 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:16:10 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 15:16:10 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'yandex': 21.0}
+2025-06-09 15:16:10 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.yandex' → 'daily_report.weather'
+2025-06-09 15:16:10 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:16:10 [INFO] utils.weather: [get_weather] Запрос погоды на 09.06.2025
+2025-06-09 15:16:10 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'temp': 29.1, 'weather_label': 'Ясно или малооблачно'}
+2025-06-09 15:16:10 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:16:12 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:16:12 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.weather' → 'daily_report.saving'
+2025-06-09 15:16:13 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:16:13 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:16:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:16:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:16:15 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 15:16:21 [INFO] utils.models.user: [User.clear_draft] Черновик пользователя Артем С.(242466895) очищен
+2025-06-09 15:16:21 [INFO] utils.db_sync: [add_report_to_google] Пользователь Артем С.(242466895) заполнил отчет за None. Отчет сохранен.
+2025-06-09 15:16:21 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.saving' → 'main_menu'
+2025-06-09 15:16:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:16:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:16:25 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:16:35 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:16:45 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:16:55 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:17:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:17:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:17:25 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:17:35 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:17:45 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:17:55 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:18:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:18:16 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:18:26 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:18:36 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:18:46 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:18:49 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:18:49 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-06-09 15:18:49 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-06-09 15:18:49 [INFO] telegram.ext.Application: Application.stop() complete
+2025-06-09 15:18:49 [INFO] __main__: [shutdown_hook] 🛑 Начинаю процедуру завершения работы бота…
+2025-06-09 15:18:49 [INFO] __main__: [shutdown_hook] ✅ SQLAlchemy engine.dispose() выполнен
+2025-06-09 15:18:49 [INFO] __main__: 🗑 Удалён старый бэкап: data\bot_database_backup_2025-06-09_14-58-39.db
+2025-06-09 15:18:49 [INFO] __main__: ✅ Создан бэкап БД: data\bot_database_backup_2025-06-09_15-18-49.db
+2025-06-09 15:18:49 [INFO] __main__: [shutdown_hook] ✅ Все логгеры закрыты
+2025-06-09 15:34:23 [INFO] __main__: [bot.py] Инициализация базы данных...
+2025-06-09 15:34:23 [INFO] utils.models.base: [init_db] Все таблицы созданы (если не существовали)
+2025-06-09 15:34:23 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 15:34:25 [INFO] utils.db_sync: [fetch_states_from_google] Лист получен: states
+2025-06-09 15:34:25 [INFO] utils.db_sync: [fetch_states_from_google] Загружено 14 состояний из Google Sheets
+2025-06-09 15:34:25 [INFO] utils.db_sync: [upsert_states] Таблица 'states' перезаписана
+2025-06-09 15:34:26 [INFO] utils.db_sync: [fetch_buttons_from_google] Лист получен: ru_buttons
+2025-06-09 15:34:26 [INFO] utils.db_sync: [fetch_buttons_from_google] Загружено 19 кнопок из Google Sheets
+2025-06-09 15:34:26 [INFO] utils.db_sync: [upsert_buttons] Таблица 'ru_buttons' перезаписана
+2025-06-09 15:34:27 [INFO] utils.db_sync: [fetch_users_from_google] Лист получен: users
+2025-06-09 15:34:27 [INFO] utils.db_sync: [fetch_users_from_google] Загружено 2 пользователей из Google Sheets
+2025-06-09 15:34:27 [INFO] utils.db_sync: [upsert_states] Таблица 'users' перезаписана
+2025-06-09 15:34:27 [INFO] utils.db_sync: [update_from_google_to_db] Синхронизация завершена
+2025-06-09 15:34:27 [INFO] __main__: [bot.py] ✅ База данных инициализирована
+2025-06-09 15:34:27 [INFO] __main__: [main] Запуск бота...
+2025-06-09 15:34:28 [INFO] __main__: Бот запущен. Ждём обновлений...
+2025-06-09 15:34:28 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getMe "HTTP/1.1 200 OK"
+2025-06-09 15:34:28 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-09 15:34:28 [INFO] apscheduler.scheduler: Scheduler started
+2025-06-09 15:34:28 [INFO] telegram.ext.Application: Application started
+2025-06-09 15:34:30 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:34:30 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu_manage_bot' → 'daily_report.date_entering'
+2025-06-09 15:34:30 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 400 Bad Request"
+2025-06-09 15:34:30 [WARNING] utils.models.messages: [BotMessage.edit] Ошибка BadRequest при редактировании сообщения (message_id=2695) для пользователя Артем С.(242466895) - Message to edit not found
+2025-06-09 15:34:30 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/sendMessage "HTTP/1.1 200 OK"
+2025-06-09 15:34:30 [INFO] utils.models.user: [User.set_last_message_id] Обновлён message_id для пользователя Артем С.(242466895): 2695 → 39
+2025-06-09 15:34:40 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:34:50 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:35:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:35:10 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:35:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:35:31 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:35:41 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:35:51 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:36:01 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:36:11 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:36:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:36:28 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:36:28 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.date_entering' → 'main_menu'
+2025-06-09 15:36:28 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:36:28 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:36:38 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:36:40 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:36:40 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu' → 'daily_report.date_entering'
+2025-06-09 15:36:40 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:36:45 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:36:45 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:36:45 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'date': '08.06.2025', 'author': 'Артем С.(242466895)'}
+2025-06-09 15:36:45 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:36:45 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 15:36:49 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.date_entering' → 'daily_report.confirm_overwrite'
+2025-06-09 15:36:49 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:36:55 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:37:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:37:09 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:37:09 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.confirm_overwrite' → 'main_menu'
+2025-06-09 15:37:09 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:37:09 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:37:11 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:37:11 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu' → 'main_menu.knowledge_base'
+2025-06-09 15:37:11 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:37:11 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:37:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:37:15 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu.knowledge_base' → 'main_menu.manage_bot'
+2025-06-09 15:37:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:37:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:37:18 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:37:18 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 15:37:21 [INFO] utils.db_sync: [rewrite_users_on_google_from_db] Лист 'users' перезаписан данными из БД
+2025-06-09 15:37:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:37:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 400 Bad Request"
+2025-06-09 15:37:22 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:37:22 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu.manage_bot' → 'main_menu'
+2025-06-09 15:37:22 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:37:23 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:37:32 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:37:43 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:37:48 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:37:48 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'main_menu' → 'daily_report.date_entering'
+2025-06-09 15:37:48 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:37:50 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:37:50 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:37:50 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'date': '08.06.2025', 'author': 'Артем С.(242466895)'}
+2025-06-09 15:37:50 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:37:50 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 15:37:53 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.date_entering' → 'daily_report.confirm_overwrite'
+2025-06-09 15:37:53 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:37:54 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:37:54 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'overwrite': True}
+2025-06-09 15:37:55 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.confirm_overwrite' → 'daily_report.wolt'
+2025-06-09 15:37:55 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:37:55 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:37:57 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:37:58 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 15:37:58 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'wolt': 12.0}
+2025-06-09 15:37:58 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.wolt' → 'daily_report.bolt'
+2025-06-09 15:37:58 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:38:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:38:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 15:38:00 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'bolt': 12.0}
+2025-06-09 15:38:00 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.bolt' → 'daily_report.yandex'
+2025-06-09 15:38:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:38:04 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:38:04 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/deleteMessage "HTTP/1.1 200 OK"
+2025-06-09 15:38:04 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'yandex': 12.0}
+2025-06-09 15:38:04 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.yandex' → 'daily_report.weather'
+2025-06-09 15:38:04 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:38:04 [INFO] utils.weather: [get_weather] Запрос погоды на 08.06.2025
+2025-06-09 15:38:04 [INFO] utils.models.user: [User.write_to_draft] Обновлён черновик пользователя Артем С.(242466895): {'temp': 27.7, 'weather_label': 'Ясно или малооблачно'}
+2025-06-09 15:38:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:38:12 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:38:12 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.weather' → 'daily_report.saving'
+2025-06-09 15:38:12 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:38:13 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:38:14 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:38:14 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:38:14 [INFO] utils.db_sync: [_get_worksheet] Авторизация по service account...
+2025-06-09 15:38:17 [INFO] utils.models.user: [User.clear_draft] Черновик пользователя Артем С.(242466895) очищен
+2025-06-09 15:38:17 [INFO] utils.db_sync: [add_report_to_google] Пользователь Артем С.(242466895) заполнил отчет за None. Отчет сохранен.
+2025-06-09 15:38:17 [INFO] utils.models.user: [User.set_state] Обновлено состояние пользователя Артем С.(242466895): 'daily_report.saving' → 'main_menu'
+2025-06-09 15:38:17 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:38:17 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/editMessageText "HTTP/1.1 200 OK"
+2025-06-09 15:38:17 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-09 15:38:24 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:38:34 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:38:44 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:38:54 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:39:04 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:39:14 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:39:24 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:39:34 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:39:45 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:39:55 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:40:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:40:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:40:25 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:40:35 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:40:45 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:40:55 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:41:05 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:41:15 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:41:26 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:41:36 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:41:46 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:41:56 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:42:06 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:42:16 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:42:26 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:42:36 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:42:46 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:42:57 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:43:07 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:43:17 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:43:27 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:43:38 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:43:48 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:43:58 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:44:09 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:44:19 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:44:29 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:44:39 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:44:49 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:44:59 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:45:09 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:45:19 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:45:30 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:45:40 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:45:50 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:46:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:46:10 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:46:20 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:46:30 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:46:40 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:46:50 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:47:00 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:47:10 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:47:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:47:31 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:47:41 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:47:51 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:48:01 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:48:11 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:48:21 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:48:31 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:48:41 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:48:52 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:49:02 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:49:12 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:49:22 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:49:32 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:49:42 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:49:48 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot7969885543:AAFPySeuy5AuUJBp57OibGbvhNhN4b36kMA/getUpdates "HTTP/1.1 200 OK"
+2025-06-09 15:49:48 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-06-09 15:49:48 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2025-06-09 15:49:48 [INFO] telegram.ext.Application: Application.stop() complete
+2025-06-09 15:49:48 [INFO] __main__: [shutdown_hook] 🛑 Начинаю процедуру завершения работы бота…
+2025-06-09 15:49:48 [INFO] __main__: [shutdown_hook] ✅ SQLAlchemy engine.dispose() выполнен
+2025-06-09 15:49:48 [INFO] __main__: 🗑 Удалён старый бэкап: data\bot_database_backup_2025-06-09_14-59-16.db
+2025-06-09 15:49:48 [INFO] __main__: ✅ Создан бэкап БД: data\bot_database_backup_2025-06-09_15-49-48.db
+2025-06-09 15:49:48 [INFO] __main__: [shutdown_hook] ✅ Все логгеры закрыты
